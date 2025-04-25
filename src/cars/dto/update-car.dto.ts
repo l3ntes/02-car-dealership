@@ -4,11 +4,11 @@ export class UpdateCarDto {
   @IsString()
   @IsUUID()
   @IsOptional()
-  readonly id: string;
+  readonly id?: string;
   @IsString()
   @IsOptional()
-  readonly brand: string;
+  readonly brand?: string;
   @IsString()
   @IsOptional()
-  readonly model: string;
+  readonly model?: string;
 }
