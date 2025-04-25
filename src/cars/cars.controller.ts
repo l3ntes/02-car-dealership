@@ -40,4 +40,6 @@ export class CarsController {
     return this.carsService.delete(id);
   }
 }
-//HASTA AQUI LLEGA LA CLASE 05
+// HASTA AQUI LLEGA LA CLASE 06, fue solo una explicación
+// de como hacer build y ejecutar el proyecto en prod.
+// todo esto descrito en los script del package.json
